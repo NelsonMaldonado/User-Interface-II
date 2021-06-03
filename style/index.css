@@ -43,7 +43,7 @@ table {
    margin:0;
    padding:0;
    max-width:100%;
-   border:1px solid grey;
+  
 }
 /*General Styles*/
 html{
@@ -89,14 +89,25 @@ nav {
 
 header nav .firstP {
     width: 70%;
-    margin-left: 15%;
-    
+    margin-left: 15%;   
 }
-.links {
-    display: flex;
-    justify-content: center;
+.linkcolor {
+    font-size: 70%;
+    text-align: center;
+    color: white;
+    border-radius: 2px;
+    padding: 6px 31px;
+    width: 17%;
+    background-color: #8860D0;
+   background-image: linear-gradient(#8860D0,#5AB9EA);
+   
 }
 
+nav .links {
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+}
 /* BG of people working with heigh of vh*/
 
 #secondBG {
@@ -152,21 +163,22 @@ footer {
     margin-bottom: 10vh;
 }   
 
-button {
+.Button {
    color: white;
     border-radius: 10px;
     padding: 16px 31px;
-    width: 20%;
     background-color: #8860D0;
-   background-image: linear-gradient(#8860D0,#5AB9EA);
+    background-image: linear-gradient(#8860D0,#5AB9EA);
+    text-shadow: 0px 1px 0px #263666;
+    
 }
 
-.linkcolor {
-    text-align: center;
-    color: white;
-    border-radius: 2px;
-    padding: 6px 31px;
-    width: 17%;
-    background-color: #8860D0;
-   background-image: linear-gradient(#8860D0,#5AB9EA);
+.button:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
 }
+.button:active {
+	position:relative;
+	top:1px;
+}
+
