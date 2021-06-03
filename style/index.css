@@ -87,6 +87,11 @@ nav {
     flex-direction: column;
 }
 
+header nav .firstP {
+    width: 70%;
+    margin-left: 15%;
+    
+}
 .links {
     display: flex;
     justify-content: center;
@@ -114,11 +119,13 @@ nav {
 
 .leftDiv {
     display: flex;
-    justify-content: center;
+    justify-content: none;
+
 }
 
 .images {
-    width: 20%;
+    width: 24%;
+    
 }
 
 
@@ -126,5 +133,40 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    margin-right: 3%;
+    
+}
+
+.rightDiv p{
+    width: 20vh;
+}
+
+
+/*Footer section*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-bottom: 10vh;
+}   
+
+button {
+   color: white;
+    border-radius: 10px;
+    padding: 16px 31px;
+    width: 20%;
+    background-color: #8860D0;
+   background-image: linear-gradient(#8860D0,#5AB9EA);
+}
+
+.linkcolor {
+    text-align: center;
+    color: white;
+    border-radius: 2px;
+    padding: 6px 31px;
+    width: 17%;
+    background-color: #8860D0;
+   background-image: linear-gradient(#8860D0,#5AB9EA);
 }
