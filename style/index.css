@@ -92,3 +92,39 @@ nav {
     justify-content: center;
 }
 
+/* BG of people working with heigh of vh*/
+
+#secondBG {
+    height: 45vh;
+    background-image: url(../images/meeting.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*bottom section */
+
+
+
+
+.bottomDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    width: 20%;
+}
+
+
+.rightDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
