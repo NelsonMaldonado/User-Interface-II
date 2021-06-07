@@ -6,7 +6,7 @@ del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+fieldset, form, label, legend,  
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
@@ -43,7 +43,7 @@ table {
    margin:0;
    padding:0;
    max-width:100%;
-   border: 1px solid black;
+   border: 0px solid black;
   
 }
 /*General Styles*/
@@ -52,7 +52,7 @@ html{
 }
 body{
    font-size:1.8rem;
-   color:#4f4f4f;
+   color:#666666;
    line-height:1.5;
    font-family: 'PT Sans', sans-serif;
    background-color:#FFFAFA;
@@ -75,7 +75,7 @@ section{
 }
 a{
    text-decoration:none;
-   color:#4f4f4f;
+   color:#666666;
 }
 
 
@@ -96,12 +96,18 @@ header {
     display: flex;
     justify-content: center;
     font-size: 70%;
-    color: white;
+    color: #666666;
     border-radius: 2px;
     padding: 6px 31px;
     width: 17%;
-    background-image: linear-gradient(#8860D0,#5AB9EA);
+    background-image: none;
+    border: 1px solid #666666;
    
+}
+
+.linkcolor:hover {
+    color: white;
+    background-color: rgb(56, 56, 56);
 }
 
 .links {
@@ -123,7 +129,7 @@ header {
 #secondBG {
     height: 45vh;
     background-image: url(../images/meeting.jpg);
-    background-attachment: fixed;
+    background-attachment: local;
     background-size: cover;
     margin: 2%;
 }
@@ -174,17 +180,9 @@ footer {
     padding: 2%;
     margin-bottom: 10vh;
     justify-content: space-between;
+    align-items: baseline;
 }   
 
-.social {
-   color: white;
-    border-radius: 10px;
-    padding: 16px 31px;
-    background-color: #8860D0;
-    background-image: linear-gradient(#8860D0,#5AB9EA);
-    text-shadow: 0px 1px 0px #263666;
-    
-}
 
 .button:hover {
 	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
@@ -195,3 +193,33 @@ footer {
 	top:1px;
 }
 
+.logos {
+    width: 20%;
+}
+
+.socialMedia {
+   display: flex;
+    width: 50%;
+    display: flex;
+
+}
+
+.icons {
+    padding: 5%;
+}
+
+
+/* /////////////////////////////////////////////////////////////
+Media Queries */
+
+@media(max-width: 800px) {
+    /* if the screen is 800 pixels or smaller apply these styles */
+
+}
+
+
+@media(max-width: 500px) {
+    /* if the screen is 500 pixels or smaller apply these styles */
+
+
+}
