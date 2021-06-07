@@ -43,7 +43,7 @@ table {
    margin:0;
    padding:0;
    max-width:100%;
-   border: 0px solid black;
+   border: 1px solid black;
   
 }
 /*General Styles*/
@@ -216,10 +216,81 @@ Media Queries */
     /* if the screen is 800 pixels or smaller apply these styles */
 
 }
-
+/* Settings at 800px and bellow are fine now will look at 500 pixels 
+bellow */
 
 @media(max-width: 500px) {
     /* if the screen is 500 pixels or smaller apply these styles */
+   .links {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+
+
+    .linkcolor {
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+    color: #666666;
+    border-radius: 2px;
+    padding: 6px 31px;
+    width: 60%;
+    background-image: none;
+    border: 1px solid #666666;
+   
+    }
+
+    .bottomDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2%;
+    }
+
+    .leftDiv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+
+    .images {
+        width: 44%;
+        padding: 1%;
+        
+    }
+
+    .rightDiv {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .rightDiv p {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        margin-bottom: 10vh;
+        justify-content: space-between;
+        align-items: center;
+    }   
+    
+    .socialMedia {
+        width: 80%;
+    }
+
+
 
 
 }
+
+
+
