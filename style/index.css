@@ -43,7 +43,7 @@ table {
    margin:0;
    padding:0;
    max-width:100%;
-   border: 0px solid black;
+   border: 1px solid black;
   
 }
 /*General Styles*/
@@ -247,7 +247,7 @@ bellow */
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        margin: 2%;
+        margin-left: 2%;
     }
 
     .leftDiv {
@@ -263,11 +263,7 @@ bellow */
         
     }
 
-    .rightDiv {
-        display: flex;
-        justify-content: center;
-        width: 90%;
-    }
+  
 
     .rightDiv p {
         width: 100%;
@@ -288,6 +284,17 @@ bellow */
     }
 
 
+    #secondBG {
+        display: flex;
+        justify-content: center;
+        height: 40vh;
+        background-image: url(../images/meeting.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 2% 5%;
+        
+    }
+    
 
 
 }
